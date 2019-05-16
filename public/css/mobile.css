@@ -1,0 +1,303 @@
+/*css for mwapp*/
+
+/** { border: 1px solid red; }*/
+
+/*ALL PAGES*/
+
+.container-fluid {
+    padding: 0px;
+}
+
+body {
+    font-family: 'Special Elite';
+}
+
+
+.nav,
+.navbar-header {
+    background-image: url(../img/mobilebkgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: grey;
+    border-style: inset;
+}
+
+
+.topLogo {
+    background-image: url(../img/mobilebkgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+
+}
+
+#placeholder {
+    height: 80vh;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+p {
+    margin-bottom: 0px;
+}
+
+
+#bottomNav {
+    background-color: white;
+    height: 50px;
+    border-style: inset;
+    background-image: url(../img/mobilebkgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#footer img {
+    width: 43px;
+    height: 43px;
+}
+
+/*END OF ALL PAGES*/
+
+/*INDEX PAGE*/
+.mainlogo img {
+    width: 90px;
+    height: 90px;
+}
+
+.mainlogo {
+    flex-direction: row;
+    background-image: url(../img/mobilebkgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.indexH4 {
+    text-align: center;
+}
+
+.indexTitle {
+    flex-direction: row;
+/*    margin-top: 40px;*/
+    padding: 5px;
+    font-family: 'Special Elite', cursive;
+
+}
+
+.helpIndex,
+h6 {
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.wishIndex {
+    display: flex;
+    padding: 10px;
+}
+
+.chatIndex {
+    display: flex;
+    padding: 10px;
+}
+
+.siteIndex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.iconref {
+    font-size: 9px;
+}
+
+/*END OF INDEX PAGE*/
+
+/*EVENTS PAGE*/
+#eventbox {
+    border-style: groove;
+    border-radius: 3px;
+}
+
+#eventbox h5,
+p {
+    text-align: center;
+}
+
+/*END OF EVENTS PAGE*/
+
+/*Event Detail Page*/
+#eventdetailbox {
+    border-style: groove;
+    border-radius: 3px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#otherimg {
+    border-style: groove;
+    border-radius: 3px;
+}
+
+#otherimg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#chatbox {
+    border-style: groove;
+    border-radius: 3px;
+}
+
+.otherimgchat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#map {
+    border-style: groove;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#map iframe {
+    border-style: solid;
+    justify-content: space-around;
+
+}
+
+#map div {
+    margin-top: 15px;
+
+}
+
+#map div p {
+    text-align: left;
+}
+
+
+/*CHAT PAGE*/
+
+#loginpage h5 {
+    text-align: center;
+}
+
+.loginBox {
+
+    border-style: groove;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+}
+
+.loginWarn {
+    float: left;
+    padding: 10px;
+}
+
+.loginText {
+    margin-top: 10px;
+}
+
+.login_btn {
+
+    border-style: ridge;
+    border-radius: 8px;
+    background-image: url(../img/mobilebkgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    text-align: center;
+}
+
+.logout_btn {
+
+    border-style: ridge;
+    border-radius: 8px;
+    background-color: indianred;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.chatHeading {
+    text-align: center;
+    width: 100%;
+
+}
+
+#posts {
+    margin-bottom: 20px;
+    width: 340px;
+
+}
+
+.message_input {
+    border-style: groove;
+    background-color: aliceblue;
+    width: 350px;
+}
+
+.sendbutton {
+    border-style: groove;
+    color: ;
+    width: 350px;
+}
+
+.inputnSend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    margin-top: 20px;
+    border-style: dotted;
+    background-color: white;
+    width: 100%;
+
+}
+
+tr {
+    color: black;
+    border-style: inset;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.messages {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/*Not using*/
+/*
+.searchbox {
+    display: flex;
+    justify-content: flex-end;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 9px;
+    height: 30px;
+    background-color: white;
+}
+*/
+
+/*
+.searchbox h6 {
+    display: flex;
+    color: gray;
+}
+*/

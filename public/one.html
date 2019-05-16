@@ -1,0 +1,408 @@
+<!--one big html party-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Special+Elite"
+      rel="stylesheet"
+    />
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <title>ONE</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="index" class="page">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="d-flex nav navbar-nav navbar-header">
+              <div class="col-4 mainlogo">
+                <img src="img/calendar.png" />
+              </div>
+
+              <div class="col-8 indexTitle">
+                <h3>CalenDear</h3>
+              </div>
+            </div>
+          </div>
+          <!--                end of div class c-fluid  -->
+        </div>
+        <!--end of div class row  -->
+
+        <div class="row">
+          <div class="cols-xs-12">
+            <div id="placeholder">
+              <div class="indexH4">
+                <h4>How to use this mobile site:</h4>
+              </div>
+
+              <div class="siteIndex">
+                <div class="helpIndex">
+                  <div><img src="img/help.png" /></div>
+                  <div>
+                    <h6>
+                      Here you will find information on how to use this site
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="wishIndex">
+                  <div><img src="img/wishlist.png" /></div>
+                  <div>
+                    <h6>Your list of favorited events are found here</h6>
+                  </div>
+                </div>
+
+                <div class="chatIndex">
+                  <div><img src="img/speechbubble.png" /></div>
+                  <div>
+                    <h6>
+                      You can chat with other people attending your favorited
+                      events.<br />NOTE: Log-in is required to enter the chat.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="iconref">
+                  *Icons made by
+                  <a href="https://www.freepik.com/" title="Freepik">Freepik</a>
+                  from
+                  <a href="https://www.flaticon.com/" title="Flaticon"
+                    >www.flaticon.com</a
+                  >
+                  is licensed by
+                  <a
+                    href="http://creativecommons.org/licenses/by/3.0/"
+                    title="Creative Commons BY 3.0"
+                    target="_blank"
+                    >CC 3.0 BY</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--            end of div placeholder-->
+          </div>
+        </div>
+      </div>
+      <!--end of div id index  -->
+
+      <div id="eventDetail" class="page">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="nav navbar-nav navbar-header">
+              <div class="topLogo">
+                <img src="img/favelist.png" />
+              </div>
+              <!--
+                        <div class="searchbox">
+                            <h6> search</h6>
+                      </div>
+-->
+            </div>
+            <!--end of class navbar header-->
+          </div>
+          <!--end of div class containerfluid -->
+        </div>
+        <!--end of div class row -->
+
+        <div id="placeholder">
+          <div id="info" class="cols-xs-12">
+            <div id="eventdetailbox"></div>
+
+            <div id="map"></div>
+
+            <div class="otherimgchat">
+              <div id="otherimg"></div>
+
+              <div id="chatbox">
+                <p>
+                  there are <br />#ppl<br />
+                  talking about this event
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--                    end of div class cols-->
+        </div>
+        <!--                end of div class placeholder-->
+      </div>
+      <!--   end of div id eventdetail-->
+
+      <div id="events" class="page">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="nav navbar-nav navbar-header">
+              <div class="topLogo">
+                <img src="img/wishlist.png" />
+              </div>
+            </div>
+            <!--end of div class navbar -->
+          </div>
+          <!--   end of div class c-fluid -->
+        </div>
+        <!--end of div class row -->
+
+        <div class="row d-flex justify-content-around">
+          <div id="placeholder">
+            <div id="eventbox"></div>
+          </div>
+          <!--end of div class placeholder-->
+        </div>
+      </div>
+      <!--   end of div id events-->
+
+      <div id="loginpage" class="page">
+        <div class="loginBox">
+          <div class="loginWarn">
+            <img src="img/warning.png" />
+          </div>
+          <div class="loginText">
+            <h5>
+              Log-in <em>REQUIRED </em><br />
+              to enter the chat
+            </h5>
+          </div>
+        </div>
+
+        <div class="login_btn">
+          <button id="login" class="button is-info">
+            <i class="fab fa-google-plus"></i> LOG IN
+          </button>
+        </div>
+
+        <!--
+            <div class="logout_btn">
+                <button id="logOUT" class="button is-info"><i class="fas fa-sign-out-alt"></i> LOG OUT</button>
+            </div>
+-->
+      </div>
+      <!--        end of div id loginpage-->
+
+      <div id="chat" class="page">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="nav navbar-nav navbar-header">
+              <div class="topLogo">
+                <img src="img/speechbubble.png" />
+              </div>
+              <!--
+                        <div class="searchbox">
+                            <h6> search</h6>
+                        </div>
+-->
+            </div>
+            <!--end of div class navbarheader  -->
+          </div>
+          <!--end of div class container fluid  -->
+        </div>
+        <!--end of div class row  -->
+
+        <div class="row">
+          <!--                <div class="cols-xs-12">-->
+          <!--                <div id="placeholder">-->
+          <div class="chatHeading">
+            <h5>Welcome to the Chat Forum</h5>
+          </div>
+
+          <div class="inputs">
+            <div class="inputnSend">
+              <input
+                id="textInput"
+                class="message_input"
+                placeholder="Type your message here..."
+              />
+
+              <div class="text">
+                <button
+                  id="create-post"
+                  class="sendbutton"
+                  data-chat="chatbadge"
+                >
+                  <i class="far fa-share-square"></i> SEND CHAT
+                </button>
+              </div>
+            </div>
+            <!--end of div class bottom..clearfix-->
+
+            <!--
+                     <button type="button" class="btn btn-secondary">
+                            Messages <span class="badge badge-light" id="badgenum">--</span>
+                        </button>        
+-->
+            <div class="messages">
+              <tbody>
+                <table id="posts" class="box">
+                  <tr></tr>
+                </table>
+              </tbody>
+            </div>
+            <!--end of div class messages-->
+
+            <div class="logout_btn">
+              <button id="logOUTChat" class="button is-info">
+                <i class="fas fa-sign-out-alt"></i> LOG OUT
+              </button>
+            </div>
+          </div>
+          <!--end of div class inputs-->
+          <!--end of div class cols-->
+        </div>
+        <!--end of div class row-->
+      </div>
+      <!--end of div id chat-->
+
+      <div id="locations" data-page="locations" class="page">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="nav navbar-nav navbar-header">
+              <div class="topLogo col-xs-6">
+                <i class="fas fa-map-marker-alt fa-4x"></i>
+                <button data-target="index">
+                  <i class="fas fa-bars fa-4x"></i>
+                </button>
+              </div>
+
+              <!--
+                        <div class="searchbox col-xs-6">
+                            <h6> search</h6>
+                        </div>
+-->
+            </div>
+            <!--  </div>end of div class navbar  -->
+          </div>
+          <!--  </div>end of div class c-fluid  -->
+        </div>
+        <!--  </div>end of div class row  -->
+
+        <div class="row">
+          <div id="placeholder">
+            <div class="cols-xs-12">
+              <!--                        <div id="eventbox">-->
+              <!--     <img src="img/logo.png">-->
+              <h5>FIRA EVENT</h5>
+              <p>This awesome event takes place in Barcelona at the Fira.</p>
+              <span><strong>Address:</strong></span>
+              <span
+                >Avinguda de la Reina Maria Cristina, s/n, 08004 Barcelona</span
+              >
+
+              <div class="locationMap">
+                <p>iframe</p>
+              </div>
+            </div>
+            <!--end of div class cols-->
+          </div>
+          <!--end of div class placeholder-->
+        </div>
+        <!--end of div class row-->
+      </div>
+      <!--  end of div id locations-->
+
+      <!--FOOTER FOR ALL PAGES -->
+      <div id="footer">
+        <div class="col-xs-12 fixed-bottom">
+          <div class="row d-flex justify-content-around" id="bottomNav">
+            <div class="col-xs-3">
+              <button data-target="events">
+                <img src="img/wishlist.png" />
+              </button>
+            </div>
+
+            <!--                    <div class="col-xs-3"><button><i data-target="eventdetail" class="far fa-list-alt fa-3x"></i></button></div>-->
+
+            <!--                    <div class="col-xs-3"><button><i data-target="chat" class="far fa-comments fa-3x"></i></button></div>-->
+
+            <div class="col-xs-3">
+              <button data-target="loginpage">
+                <img src="img/speechbubble.png" />
+              </button>
+            </div>
+
+            <div class="col-xs-3">
+              <button data-target="index">
+                <img src="img/help.png" />
+              </button>
+            </div>
+          </div>
+          <!--   end of div class row-->
+        </div>
+        <!--   end of div class cols-->
+      </div>
+      <!--   end of div class footer-->
+    </div>
+    <!--   end of div class container-->
+
+    <!-- SCRIPT SECTION -->
+    <!-- NOTE: jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- JavaScript from GETBOOTSTRAP.COM -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDXePGv2ELL2ty3WLB8KjyVcGN-wyQjxAA",
+        authDomain: "mobileapp-600ea.firebaseapp.com",
+        databaseURL: "https://mobileapp-600ea.firebaseio.com",
+        projectId: "mobileapp-600ea",
+        storageBucket: "mobileapp-600ea.appspot.com",
+        messagingSenderId: "406212955590"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <!-- EVENTS SCRIPT -->
+    <script src="js/eventsobject.js"></script>
+
+    <!-- MAIN SCRIPT -->
+    <script src="js/mobile.js"></script>
+  </body>
+</html>
