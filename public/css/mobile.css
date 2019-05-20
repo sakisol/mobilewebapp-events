@@ -17,8 +17,6 @@ body {
   background-image: url(../img/mobilebkgrnd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* border-color: grey; */
-  /* border-style: inset; */
 }
 
 .topLogo {
@@ -41,7 +39,6 @@ p {
 #bottomNav {
   background-color: white;
   height: 50px;
-  /* border-style: inset; */
   background-image: url(../img/mobilebkgrnd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +59,6 @@ p {
 
 .mainlogo {
   flex-direction: row;
-  background-image: url(../img/mobilebkgrnd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -73,7 +69,6 @@ p {
 
 .indexTitle {
   flex-direction: row;
-  /*    margin-top: 40px;*/
   padding: 5px;
   font-family: "Special Elite", cursive;
 }
@@ -108,7 +103,6 @@ h6 {
 
 /*EVENTS PAGE*/
 #eventbox {
-  /* border-style: groove; */
   border-radius: 5px;
 }
 
@@ -121,21 +115,13 @@ p {
 
 /*Event Detail Page*/
 #eventdetailbox {
-  /* border-style: groove; */
   border-radius: 3px;
   margin-top: 30px;
   text-align: center;
 }
 
-#otherimg {
-  /* height: auto; */
-  /* border-style: groove; */
-  border-radius: 3px;
-}
-
 #otherimg img {
   max-width: 100%;
-  /* max-height: 100%; */
 }
 
 #chatbox {
@@ -150,24 +136,22 @@ p {
 }
 
 #map {
-  border-style: groove;
-  border-radius: 3px;
   margin: 10px;
   display: flex;
   flex-direction: column;
 }
 
 #map iframe {
-  border-style: thin;
   justify-content: space-around;
 }
 
 #map div {
   margin-top: 15px;
+  text-align: center;
 }
 
 #map div p {
-  text-align: left;
+  text-align: center;
 }
 
 /*CHAT PAGE*/
